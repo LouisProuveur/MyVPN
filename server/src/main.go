@@ -8,9 +8,4 @@ import (
 )
 
 func main() {
-	router := gin.New()
-	err := routes.CreateRoutes(router)
-	if err != nil {
-		log.Fatal(err)
-	}
 }
